@@ -70,4 +70,4 @@ def watch():
     return '<title>sicko mode the website</title><video controls autoplay width="1280" height="720" src="/video?v=' + escape(vid) + '"></video>'
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=80)
+    app.run(host="0.0.0.0")
